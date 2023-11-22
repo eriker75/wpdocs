@@ -1,0 +1,27 @@
+#wcfm-main-contentainer .collapse {
+	display: block;
+	height: auto;
+}
+
+#wcfm-main-contentainer .wcfm-collapse {
+	overflow: hidden;
+	width: 100%;
+	flex: 5 auto;
+	vertical-align: top;
+	background-color: #ECEEF2;
+	visibility: visible !important;
+	border-radius: 0px 3px 3px 0px;
+	border-radius: 0px 3px 3px 0px;
+	border-radius: 0px 3px 3px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 70px;
+}
+
+#wcfm-main-contentainer div.wcfm-content {
+	background: #FFF;
+	margin: 0 10px 10px 10px;
+	padding: 10px;
+	font-size: .9em;
+	line-height: 1.5em;
+}

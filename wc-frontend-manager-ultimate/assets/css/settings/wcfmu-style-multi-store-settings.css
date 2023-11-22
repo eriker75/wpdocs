@@ -1,0 +1,93 @@
+.wcfm-branch-geolocation-wrapper {
+    position: relative;
+}
+
+.wcfm-branch-geolocation-wrapper #leaflet_find_search_address a.search-cancel {
+    display: none !important;
+}
+
+.wcfm-branch-geolocation-wrapper #leaflet_find_search_address .search-input,
+.wcfm-branch-geolocation-wrapper #branch_find_address {
+    padding-right: 40px !important;
+    max-width: 100% !important;
+}
+
+.wcfm-branch-geolocation-wrapper i.wcfm-current-location {
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    transform: translate(-50%, 46%);
+    right: 1%;
+}
+
+#wcfm_settings_form .wcfm-branch-geolocation-wrapper i.wcfm-current-location {
+    right: 5%;
+}
+
+@media screen and (max-width: 640px) {
+    .wcfm-branch-geolocation-wrapper #leaflet_find_search_address {
+        width: 100% !important;
+    }
+
+    .wcfm-branch-geolocation-wrapper i.wcfm-current-location {
+        right: 1% !important;
+    }
+}
+
+.leaflet-control-search .search-input {
+    margin: 0;
+}
+
+.store-locations-table {
+    text-align: left;
+}
+
+.store-locations-table th span {
+    cursor: default;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.store-locations-table .mark-main-branch {
+    font-size: 18px;
+    line-height: 18px;
+    color: #CC3366;
+}
+
+.branch-header-wrap a.back {
+    color: #CC3366;
+}
+
+.store-locations-table td .wcfm-action-icon {
+    text-align: center;
+}
+
+#wcfm_settings_save_button:disabled,
+#wcfm_settings_save_button[disabled] {
+    background-color: transparent !important;
+    border: none !important;
+    pointer-events: none;
+}
+
+#wcfm-marketplace-branch-map {
+    width: 450px;
+    height: 300px;
+    border: 1px solid #DFDFDF;
+    margin-right: 10px;
+    float: right;
+}
+
+@media screen and (max-width: 640px) {
+    #wcfm-marketplace-branch-map {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    #wcfm_add_branch span.text,
+    #vendor_edit_branch a.add_new_wcfm_ele_dashboard span.text {
+        display: inline-block;
+    }
+}

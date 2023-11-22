@@ -1,0 +1,48 @@
+<?php
+/**
+ * HybridAuth
+ * http://hybridauth.sourceforge.net | http://github.com/hybridauth/hybridauth
+ * (c) 2009-2014, HybridAuth authors | http://hybridauth.sourceforge.net/licenses.html
+ */
+
+/**
+ * The Hybrid_User class represents the current logged in user
+ */
+class Hybrid_User
+{
+
+    /**
+     * The ID (name) of the connected provider
+     *
+     * @var Numeric/String
+     */
+    public $providerId = null;
+
+    /**
+     * timestamp connection to the provider
+     *
+     * @var timestamp
+     */
+    public $timestamp = null;
+
+    /**
+     * User profile, contains the list of fields available in the normalized user profile structure used by HybridAuth.
+     *
+     * @var object
+     */
+    public $profile = null;
+
+
+    /**
+     * Initialize the user object.
+     */
+    function __construct()
+    {
+        $this->timestamp = time();
+
+        $this->profile = new Hybrid_User_Profile();
+
+    }//end __construct()
+
+
+}//end class

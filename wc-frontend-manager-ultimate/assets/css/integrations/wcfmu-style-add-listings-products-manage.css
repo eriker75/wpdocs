@@ -1,0 +1,43 @@
+.wcfm_listing_job_fields_container {
+	padding: 40px 20px !important;
+}
+
+.wcfm_listing_job_fields_container h2 {
+	display: block !important;
+	width: 100% !important;
+}
+
+.wcfm_listing_job_fields_container fieldset {
+	margin: 0 0 1em 0 !important;
+	padding: 0 0 1em 0 !important;
+	background-color: #FFF !important;
+}
+
+#wcfm-main-contentainer .wcfm_listing_job_fields_container .chosen-container-multi .chosen-choices li.search-field input[type=text] {
+	border: 0 !important;
+}
+
+#submit-job-form input[type="submit"] {
+	background: #3D3D3D;
+	padding: 5px 10px;
+	border-radius: 3px;
+	border-radius: 3px;
+	border-radius: 3px;
+	border: #F0F0F0 1px solid;
+	border-bottom: 1px solid #17A2B8;
+	color: #FFF;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 8px;
+	margin-left: 10px;
+	box-shadow: 0 1px 0 #CCC;
+	box-shadow: 0 1px 0 #CCC;
+	display: table-cell;
+	cursor: pointer;
+}
+
+#submit-job-form input[type="submit"]:hover {
+	background-color: #17A2B8;
+	color: #FFF;
+}

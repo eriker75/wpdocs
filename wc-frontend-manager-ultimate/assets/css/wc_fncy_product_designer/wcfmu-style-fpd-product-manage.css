@@ -1,0 +1,4 @@
+.fpd-categories .select2-container,
+.fpd-products .select2-container {
+    z-index: 1000;
+}

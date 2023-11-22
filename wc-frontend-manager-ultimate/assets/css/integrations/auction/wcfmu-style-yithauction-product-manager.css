@@ -1,0 +1,59 @@
+.wcfm-auction-multiinput-holder {
+	display: flex;
+}
+
+.wcfm-auction-multiinput-holder .wcfm-auction-multiinput-fields {
+	display: flex;
+	gap: 10px;
+	width: 60%;
+	margin-bottom: 15px;
+	margin-right: 0;
+	font-size: 12px;
+	line-height: 18px;
+	min-height: 35px;
+	max-width: 100%;
+}
+
+.wcfm-auction-multiinput-holder
+	.wcfm-auction-multiinput-fields.wcfm-yith-inline-fields {
+	display: inline-block;
+}
+
+.wcfm-auction-multiinput-holder
+	.wcfm-auction-multiinput-fields.wcfm-yith-inline-fields
+	input {
+	width: 20%;
+}
+
+.ywcact-hide {
+	display: none;
+}
+
+.ywcact-remove-rule {
+	padding-left: 7px;
+	margin-left: 0px !important;
+	font-size: 12px !important;
+}
+
+.ywcact-product-add-rule {
+	display: block;
+	color: #135e96 !important;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.ywcact-bid-increment-row .borderTop {
+	border-top: 1px dashed;
+	width: 75%;
+	margin: 10px 0px;
+}
+
+.ywcact-span.last {
+	display: inline-block;
+}
+
+#yith-reshedule-notice-admin {
+	display: none;
+	font-weight: bold;
+	font-size: 110%;
+}
